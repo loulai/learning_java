@@ -1,4 +1,4 @@
-lets learn java!
+Let's learn java!
 ----
 I'm learning java using [this guide]. Before java, I was only familiar with scripting languages: Ruby, Python and javaScript.
 
