@@ -2,8 +2,7 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		Welcomer thang = new Welcomer();
-		thang.sayHello();
+		System.out.println("Hello World");
 	}
 
 }

@@ -1,8 +1,8 @@
 
-public class HelloWorld {
+public class Main {
 
 	public static void main(String[] args) {
-		Welcomer thang = new Welcomer();
+		Welcomer thang = new Welcomer;
 		thang.sayHello();
 	}
 
