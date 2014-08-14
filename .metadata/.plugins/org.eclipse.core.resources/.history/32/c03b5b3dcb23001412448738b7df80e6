@@ -1,14 +1,14 @@
-import java.io.*;
+
 public class Calculator {
 
 	public static void main(String[] args) {
 		String s1 = getInput("Enter a numeric input: ");
-		System.out.println(s1);
+		System.out.println(s1)
 
 	}
 	
 	private static String getInput(String prompt) {
-		BufferedReader stdin = new BufferedReader(
+		BufferedReader stdin = new BufferReader(
 				new InputStreamReader(System.in));
 				
 		System.out.print(prompt);

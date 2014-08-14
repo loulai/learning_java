@@ -8,7 +8,7 @@ public class Calculator {
 	}
 	
 	private static String getInput(String prompt) {
-		BufferedReader stdin = new BufferedReader(
+		BufferedReader stdin = new BufferReader(
 				new InputStreamReader(System.in));
 				
 		System.out.print(prompt);
