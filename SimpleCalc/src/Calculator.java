@@ -5,10 +5,10 @@ public class Calculator {
 		String s1 = getInput("Enter a numeric input: ");
 		String s2 = getInput("Enter the second numeric input: ");
 		
-		int firstInput = new Integer(s1);
-		int secondInput = new Integer(s2);
+		double firstInput = Double.parseDouble(s1);
+		double secondInput = Double.parseDouble(s2);
 		
-		int result = firstInput + secondInput;
+		double result = firstInput + secondInput;
 		
 		System.out.print("Those two summed together equal: " + result);
 
