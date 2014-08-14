@@ -8,7 +8,9 @@ public class Calculator {
 		int firstInput = new Integer(s1);
 		int secondInput = new Integer(s2);
 		
-		System.out.print(firstInput + secondInput);
+		int result = firstInput + secondInput;
+		
+		System.out.print("Those two summed together equal: " + result);
 
 	}
 	
