@@ -11,7 +11,7 @@ public class Main {
 		System.out.print(unicVar);
 		System.out.println(myChar);
 		
-		Character myNewChar = Character.toUpperCase(myChar);
+		Character myNewChar = Character.toUpperCas(myChar);
 		System.out.print(myNewChar);
 
 	}
