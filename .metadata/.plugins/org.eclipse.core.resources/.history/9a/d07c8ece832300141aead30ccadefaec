@@ -3,11 +3,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		char unicVar = '\u0024';
-		char myChar = '2';
+		char unicVar = '\u0027';
 		
 		System.out.print(unicVar);
-		System.out.println(myChar);
 
 	}
 

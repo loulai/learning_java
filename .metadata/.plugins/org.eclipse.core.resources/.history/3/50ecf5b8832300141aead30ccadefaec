@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		char unicVar = '/u0024'
+		
+		System.out.print(uniVar);
+
+	}
+
+}
