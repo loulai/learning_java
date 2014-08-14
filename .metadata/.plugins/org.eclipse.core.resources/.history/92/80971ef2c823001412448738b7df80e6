@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("The b4 var is " + b4);
 		
 		Date myDate = new Date();
-		System.out.println("the new date is " + myDate);
+		System.out.println("the new date is" + myDate);
 	} 
 
 }
