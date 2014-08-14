@@ -3,9 +3,9 @@ public class PrimPlay {
 
 	public static void main(String[] args){
 		String string1 = "hello";
-		String string2 = "hello sir";
+		String string2 = "hello!";
 			
-			if (string1.equals(string2)) {
+			if (string1 == string2) {
 				System.out.println("da same");
 			}
 			
