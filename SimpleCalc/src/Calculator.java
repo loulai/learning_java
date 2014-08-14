@@ -3,7 +3,12 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		String s1 = getInput("Enter a numeric input: ");
-		System.out.println(s1);
+		String s2 = getInput("Enter the second numeric input: ");
+		
+		int firstInput = new Integer(s1);
+		int secondInput = new Integer(s2);
+		
+		System.out.print(firstInput + secondInput);
 
 	}
 	
