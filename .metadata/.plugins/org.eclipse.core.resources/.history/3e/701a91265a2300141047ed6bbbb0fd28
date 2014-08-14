@@ -1,0 +1,10 @@
+
+public class PrimPlay {
+
+	BigDecimal payment = new BigDecimal(1115.37);
+	
+	public static void main(String[] args) {
+		System.out.println(payment.toString());
+	}
+
+}
