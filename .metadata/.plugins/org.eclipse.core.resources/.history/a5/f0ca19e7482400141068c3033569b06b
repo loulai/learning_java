@@ -2,15 +2,13 @@
 public class Main {
 
 	public static void main(String[] args) {
-//		int monthNumber = 3;
+		int monthNumber = 3;
 		
-		Month myMonth = Month.JAN;
-		
-		switch(myMonth) {
-		case JAN:
+		switch(monthNumber) {
+		case 1:
 			System.out.println("Its January!");
 			break;
-		case FEB:
+		case 2:
 			System.out.println("It's Feb");
 			break;
 		default:

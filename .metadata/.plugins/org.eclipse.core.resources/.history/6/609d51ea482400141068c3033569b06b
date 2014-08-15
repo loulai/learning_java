@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 //		int monthNumber = 3;
 		
-		Month myMonth = Month.JAN;
+		Month myMonth = Month.MAR;
 		
 		switch(myMonth) {
 		case JAN:
