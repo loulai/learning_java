@@ -9,17 +9,9 @@ public class Main {
 //			System.out.println(months[i]);
 //		}
 		
-//		for (String elem : months) {
-//			System.out.println(elem);
-//		}
-		
-		int counter = 0;
-		while (counter < months.length) {
-			System.out.println(months[counter]);
-			counter ++;
+		for (String elem : months) {
+			System.out.println(elem);
 		}
-		
-		
 
 	}
 
