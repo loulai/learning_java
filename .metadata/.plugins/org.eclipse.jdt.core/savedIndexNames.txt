@@ -3,6 +3,5 @@ INDEX VERSION 1.127+/Users/louiselai/Desktop/programming/lynda/JavaExerciseFiles
 3625597633.index
 546180972.index
 3152933518.index
-2284179609.index
 2696474491.index
 3894272085.index
