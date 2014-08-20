@@ -6,8 +6,9 @@ public class Main {
 		System.out.println(mainResult);
 	}
 	
-	private static int addValues(int int1, int int2){
-		return int1 + int2;
+	private static int addValues(int s1, int s2){
+		int result = s1 + s2;
+		return result;
 	}
 
 }
