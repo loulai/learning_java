@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] arg){
+		
+		for (i=0; i < 6; i++) {
+			System.out.println(i);
+		}
+		
+	}
+/*		1
+		12
+		123
+		1234
+		123456
+		12345
+		1234
+		123
+		12
+		1
+*/
+		}
