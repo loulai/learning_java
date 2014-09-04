@@ -4,8 +4,8 @@ public class Main {
 		try {
 			getArrayItem();
 		} catch (IndexOutOfBoundsException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace();
+			System.out.println("Hello sir, there is an error in thy code");
 		}
 		
 	}

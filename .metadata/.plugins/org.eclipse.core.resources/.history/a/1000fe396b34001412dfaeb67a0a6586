@@ -1,0 +1,13 @@
+
+public class Main {
+	
+	public static void main(String[] arg) {
+	
+		
+		int[] arrayThree = {1, 9000, 20, 27};
+		for(int i = 0; i < arrayThree.length; i++){
+			System.out.print("The number is: " + arrayThree[i]);
+		}
+	}
+
+}

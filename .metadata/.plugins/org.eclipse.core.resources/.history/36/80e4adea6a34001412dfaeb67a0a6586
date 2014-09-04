@@ -1,0 +1,16 @@
+
+public class Main {
+	
+	public static void main(String[] arg) {
+		int[] arrayOne = new int[3];
+		for (int i = 0; i < arrayOne.length; i++){
+			System.out.print(arrayOne[i]);
+		}
+		
+		int arrayTwo[] = new int[1.4];
+		for(int i = 0; i < arrayTwo.length; i++){
+			System.out.print(arrayTwo[i]);
+		}
+	}
+
+}

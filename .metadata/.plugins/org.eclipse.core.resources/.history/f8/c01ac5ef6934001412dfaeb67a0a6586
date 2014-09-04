@@ -1,0 +1,9 @@
+
+public class Main {
+	
+	public static void main(String[] arg) {
+		int[] arrayOne = new int[3];
+		System.out.println(arrayOne)
+	}
+
+}
