@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String[][] countries = new String[3][2];
+		
+		countries[0][0] = "Malaysia";
+		countries[0][1] = "KL";
+		
+		System.out.println(countries[0][1]);
+
+	}
+
+}

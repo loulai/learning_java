@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String[][] countries = String[3][2];
+		
+		countries[0][0] = "Malaysia";
+		countries[0][1] = "KL";
+
+	}
+
+}
