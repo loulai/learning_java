@@ -1,10 +1,11 @@
 
 public class Main {
 	public static void main(String[] args) {
-		String s = null;
-		System.out.println(s);
-		
-		String[] myArrayString = {"Whaddup"};
-		System.out.println(myArrayString[1]);
+		try {
+			String[] myArrayString = { "Whaddup" };
+			System.out.println(myArrayString[1]);
+		} catch (Exception e) {
+			System.out.println("Oopsie! There was an error");
+		}
 	}
 }

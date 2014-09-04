@@ -598,3 +598,123 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2014-09-03 17:09:28.305
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-09-04 14:24:32.156 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/louiselai/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/louiselai/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-09-04 14:29:08.241
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.e4.ui.workbench.renderers.swt 4 2 2014-09-04 14:29:32.937
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench.renderers.swt".
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalAccessException: Class org.eclipse.e4.core.internal.di.MethodRequestor can not access a member of class org.eclipse.ui.internal.handlers.E4HandlerProxy with modifiers ""
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:59)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:247)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.setEnabled(HandlerServiceHandler.java:77)
+	at org.eclipse.core.commands.Command.setEnabled(Command.java:886)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.canExecute(HandlerServiceImpl.java:179)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.canExecuteItem(HandledContributionItem.java:839)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$1(HandledContributionItem.java:828)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$3.run(HandledContributionItem.java:165)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.updateItemEnablement(HandledContributionItem.java:196)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolItemUpdater.updateContributionItems(ToolItemUpdater.java:39)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer$8.changed(ToolBarManagerRenderer.java:367)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:110)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:338)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:352)
+	at org.eclipse.ui.internal.services.EvaluationService.contextEvaluate(EvaluationService.java:139)
+	at org.eclipse.ui.internal.services.EvaluationService.addSourceProvider(EvaluationService.java:180)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextSourceProvider.<init>(DebugContextSourceProvider.java:51)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.<init>(DebugWindowContextService.java:62)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextManager.createService(DebugContextManager.java:163)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextManager.getContextService(DebugContextManager.java:221)
+	at org.eclipse.debug.internal.ui.views.ViewContextService.<init>(ViewContextService.java:620)
+	at org.eclipse.debug.internal.ui.views.ViewContextManager.windowOpened(ViewContextManager.java:93)
+	at org.eclipse.debug.internal.ui.views.ViewContextManager.<init>(ViewContextManager.java:55)
+	at org.eclipse.debug.internal.ui.views.ViewContextManager.getDefault(ViewContextManager.java:44)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextManager.getDefault(DebugContextManager.java:150)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContextManager(DebugUITools.java:1068)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupService.<init>(SourceLookupService.java:40)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupManager.windowOpened(SourceLookupManager.java:91)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupManager.<init>(SourceLookupManager.java:41)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupManager.getDefault(SourceLookupManager.java:53)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.initializeLaunchListeners(DebugUIPlugin.java:935)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.launchAdded(DebugUIPlugin.java:920)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:451)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:438)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1044)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:708)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.IllegalAccessException: Class org.eclipse.e4.core.internal.di.MethodRequestor can not access a member of class org.eclipse.ui.internal.handlers.E4HandlerProxy with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Method.invoke(Method.java:588)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 44 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-09-04 14:29:32.939
+!MESSAGE Internal error during tool item enablement updating, this is only logged once per tool item.
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalAccessException: Class org.eclipse.e4.core.internal.di.MethodRequestor can not access a member of class org.eclipse.ui.internal.handlers.E4HandlerProxy with modifiers ""
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:59)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:247)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.setEnabled(HandlerServiceHandler.java:77)
+	at org.eclipse.core.commands.Command.setEnabled(Command.java:886)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.canExecute(HandlerServiceImpl.java:179)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.canExecuteItem(HandledContributionItem.java:839)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$1(HandledContributionItem.java:828)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$3.run(HandledContributionItem.java:165)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.updateItemEnablement(HandledContributionItem.java:196)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolItemUpdater.updateContributionItems(ToolItemUpdater.java:39)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer$8.changed(ToolBarManagerRenderer.java:367)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:110)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:338)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:352)
+	at org.eclipse.ui.internal.services.EvaluationService.contextEvaluate(EvaluationService.java:139)
+	at org.eclipse.ui.internal.services.EvaluationService.addSourceProvider(EvaluationService.java:180)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextSourceProvider.<init>(DebugContextSourceProvider.java:51)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.<init>(DebugWindowContextService.java:62)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextManager.createService(DebugContextManager.java:163)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextManager.getContextService(DebugContextManager.java:221)
+	at org.eclipse.debug.internal.ui.views.ViewContextService.<init>(ViewContextService.java:620)
+	at org.eclipse.debug.internal.ui.views.ViewContextManager.windowOpened(ViewContextManager.java:93)
+	at org.eclipse.debug.internal.ui.views.ViewContextManager.<init>(ViewContextManager.java:55)
+	at org.eclipse.debug.internal.ui.views.ViewContextManager.getDefault(ViewContextManager.java:44)
+	at org.eclipse.debug.internal.ui.contexts.DebugContextManager.getDefault(DebugContextManager.java:150)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContextManager(DebugUITools.java:1068)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupService.<init>(SourceLookupService.java:40)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupManager.windowOpened(SourceLookupManager.java:91)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupManager.<init>(SourceLookupManager.java:41)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupManager.getDefault(SourceLookupManager.java:53)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.initializeLaunchListeners(DebugUIPlugin.java:935)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.launchAdded(DebugUIPlugin.java:920)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:451)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:438)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1044)
+	at org.eclipse.debug.internal.core.LaunchManager.addLaunch(LaunchManager.java:708)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:834)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.IllegalAccessException: Class org.eclipse.e4.core.internal.di.MethodRequestor can not access a member of class org.eclipse.ui.internal.handlers.E4HandlerProxy with modifiers ""
+	at sun.reflect.Reflection.ensureMemberAccess(Reflection.java:65)
+	at java.lang.reflect.Method.invoke(Method.java:588)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 44 more
