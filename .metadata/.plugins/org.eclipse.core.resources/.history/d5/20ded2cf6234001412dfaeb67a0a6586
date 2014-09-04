@@ -1,18 +1,19 @@
 
 public class Main {
 	public static void main(String[] args) {
+		
 		try {
 			getArrayItem();
 		} catch (IndexOutOfBoundsException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.print("ello");
 		}
-		
-	}
+
+		}
 
 	private static void getArrayItem() 
 		throws IndexOutOfBoundsException {
-		String[] myArray = {"Hello"};
-		System.out.println(myArray[1]);
+		String[] myArrayString = { "Whaddup" };
+		System.out.println(myArrayString[1]);
+	}
 	}
 }

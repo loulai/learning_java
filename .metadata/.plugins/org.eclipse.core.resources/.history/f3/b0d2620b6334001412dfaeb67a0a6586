@@ -1,0 +1,11 @@
+
+public class Main {
+	public static void main(String[] args) {
+		getArrayItem();
+		
+	}
+
+	private static void getArrayItem() {
+		String[] myArray = {"Hello"};
+		System.out.println(myArray[1]);
+	}

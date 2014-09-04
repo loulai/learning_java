@@ -15,4 +15,3 @@ public class Main {
 		String[] myArray = {"Hello"};
 		System.out.println(myArray[1]);
 	}
-}

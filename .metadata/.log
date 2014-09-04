@@ -718,3 +718,6 @@ Caused by: java.lang.IllegalAccessException: Class org.eclipse.e4.core.internal.
 	at java.lang.reflect.Method.invoke(Method.java:588)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
 	... 44 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-09-04 14:39:39.005
+!MESSAGE Failed to resolve selection in '=ExceptionHandling/src<{Main.java' at offset 93

@@ -1,12 +1,7 @@
 
 public class Main {
 	public static void main(String[] args) {
-		try {
-			getArrayItem();
-		} catch (IndexOutOfBoundsException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		getArrayItem();
 		
 	}
 
@@ -15,4 +10,3 @@ public class Main {
 		String[] myArray = {"Hello"};
 		System.out.println(myArray[1]);
 	}
-}

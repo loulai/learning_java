@@ -1,0 +1,15 @@
+
+public class Main {
+	public static void main(String[] args) {
+		
+		getArrayItem();
+
+		}
+
+	private static void getArrayItem() 
+		throws IndexOutOfBoundsException {
+		String[] myArrayString = { "Whaddup" };
+		System.out.println(myArrayString[1]);
+	}
+	}
+}
