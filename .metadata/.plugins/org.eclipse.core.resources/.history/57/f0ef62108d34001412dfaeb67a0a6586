@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> startups = new ArrayList<String>();
+		
+		startups.add("Ringly");
+		startups.add("Potato");
+		
+		System.out.println(startups[0];)
+
+	}
+
+}
