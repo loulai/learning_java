@@ -1,5 +1,5 @@
 Let's learn java!
 ----
-I'm teaching myself java using videos from [lynda] and doing some set exercises. Before java, I was only familiar with scripting languages: Ruby, Python and javaScript.
+Here is some code I played around with when learning Java from the website [lynda]. I am learning Java from a background of scripting languages, namely Ruby and JavaScript.
 
 [lynda]:www.lynda.com
